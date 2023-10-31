@@ -97,7 +97,7 @@ export default class HomeController extends Component {
     });
     await this.callRandomuserApi();
     this.setState({
-      isRefreshed: true,
+      isRefreshed: false,
     });
   };
 
